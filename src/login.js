@@ -25,7 +25,7 @@ const Login = () => {
             onChange={handleChange}
             required
           />
-        </label>
+        </label><br/>
         <label>
           Password:
           <input
@@ -35,7 +35,7 @@ const Login = () => {
             onChange={handleChange}
             required
           />
-        </label>
+        </label><br/>
         <button type="submit">Login</button>
       </form>
     </div>

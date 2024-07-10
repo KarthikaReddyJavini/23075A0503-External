@@ -1,8 +1,21 @@
 header {
-  background-color: #333;
+  background-color: #ffc0cb; /* Light pink background */
   padding: 1rem 0;
   color: #fff;
   text-align: center;
+  border-bottom: 2px solid #ff69b4; /* Hot pink border */
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-logo {
+  height: 50px; /* Adjust the height as needed */
+  margin-right: 20px; /* Space between the image and the navigation */
+  padding-right: 10px;
 }
 
 nav ul {
@@ -15,11 +28,16 @@ nav ul {
 
 nav ul li {
   margin: 0 1rem;
+  padding: 0.5rem; /* Adding padding inside each box */
+  background-color: #983b6a; /* Hot pink background for boxes */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow for box effect */
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  display: block; /* Make the anchor tag fill the li */
 }
 
 nav ul li a:hover {
